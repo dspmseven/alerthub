@@ -1,0 +1,13 @@
+package com.popelyshko.alerthub;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AlerthubApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AlerthubApplication.class, args);
+	}
+
+}
