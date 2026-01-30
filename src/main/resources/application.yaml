@@ -17,3 +17,5 @@ camel:
   dataformat:
     jackson:
       auto-discover-object-mapper: true
+telegram:
+  auth-token: ${TELEGRAM_AUTH_TOKEN:}
